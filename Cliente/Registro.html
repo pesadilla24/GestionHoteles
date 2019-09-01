@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JavaScript - read JSON from URL</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+     <script src="scripts/Validations/handler.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+   <!-- <div class="mypanel"></div>
+<h4  id="nombreHotel">
+<h4  id="NitHotel">
+<h4  id="Num_hab">
+  -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <div class="card border-success mb-3 text-center" style="border: 1px #299534 solid;">
+                <div class="card-header ">
+                   <h4  id="itNit">
+                   <h4 id="itNit3">
+                    <h4 id="itNit3"> NIT registrado
+                                       
+                                       
+                                           
+                </div>
+                <div class="card-body d-flex justify-content-between align-items-center">
+
+                        <div class='.bg-light card-body' style="align-content: center">
+                       
+                                <form role="form" id="formulario" action="BLL/ControladorControl.php" ">
+                                    <div class="form-group">
+                                      <input type="hidden" id="itCampoClave" name="itCampoClave" value="C"/>
+                                        <input type="hidden" id="itNit2" name="itNit2" />
+                                         <input type="hidden" id="itNumMax" name="itNumMax" />
+                                        <label for="exampleInputPassword1">
+                                            Habitaciones registradas: 
+                                        </label>
+                                      <label id="num_habitaciones">
+                                           
+                                        
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">
+                                            Ingrese la cantidad de habitaciones a registrar:
+                                        </label>
+                                        <input type="text" class="form-control" id="itCantidad" />
+                                        
+                                    </div>
+                                   
+                                     <div class="form-group">
+                                        <label for="exampleInputPassword1">
+                                            Tipo de habitacion
+                                        </label>
+                                        <select class="form-control height=70" name='itId_tipoh' id="itId_tipoh">
+                                          <option value="1" selected>Estandar</option> 
+                                          <option value="2" >Junior</option>
+                                          
+                                        </select>
+                                    </div>
+                                     <div class="form-group">
+                                        <label for="exampleInputPassword1">
+                                            Tipo de acomodacion
+                                        </label>
+                                        <select class="form-control height=70" name='itId_tipoa' id="itId_tipoa">
+                                          <option value="1" selected>Sencilla</option> 
+                                          <option value="2" >Triple</option>
+                                          <option value="3">Doble</option>
+                                        </select>
+                                    </div>
+   
+                                     <div class="form-group">
+<input type="submit" class="btn btn-dark" value="Enviar" />
+                        <button type="button" class="btn btn-dark" onclick="window.location.href='index.html'" >Regresar</button>
+                           </div>
+                                </form>
+                        </div>
+            </div>
+               <div class="card-footer">
+                    2019
+                </div>
+        </div>
+    </div> 
+
+<div class="mypanel">
+
+
+    </div>
+                                        
+                                        
+                                        
+                                   
+    
+
+<!--
+    $.getJSON('http://localhost/api/hoteles/1222', function(data) {
+        
+        var text = `nit: ${data.nit}<br>
+                    nombre: ${data.nombre}<br>
+                    direccion: ${data.direccion}<br>
+                    id_ciudad: ${data.id_ciudad}<br>
+                    num_habitaciones: ${data.num_habitaciones}`
+                 
+           $(".nombreHotel").html("ff");          
+        
+       
+
+    });
+    -->  
+    
+</body>
+</html>

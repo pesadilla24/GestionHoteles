@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Crear Hotel</title>
+    </head>
+    <body>
+        <form method="post" action="BLL/Controlador.php">
+            <input type="hidden" id="itCampoClave" name="itCampoClave" value="C"/>
+            <input type="hidden" id="itNit" name="itNit" value="0"/>
+            <div style="align-content: center">
+            <table border="1" >
+                <thead>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <th>Nombres *</th>
+                        <th>        
+                            <input type="text"                       
+                                    id="nit" 
+                                    name="nit" 
+                                    required="required"
+                                    maxLength="25"        
+                                    placeholder="Nit de hotel"/>          
+                          
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Apellidos *</th>
+                        <td>
+                            <input type="text"                        
+                                   id="nombre"
+                                   name="nombre"                        
+                                   required="required"             
+                                   maxLength="25"
+                                   placeholder="Nombre"/>                       
+                           
+                        </td>
+                    </tr>
+                     <tr>
+                        <th>Direccion *</th>
+                        <td>
+                            <input type="text"                        
+                                   id="direccion"
+                                   name="direccion"                        
+                                   required="required"             
+                                   maxLength="25"
+                                   placeholder="Direccion"/>                       
+                           
+                        </td>
+                    </tr>
+                     <tr>
+                        <th>Ciudad *</th>
+                        <td>
+                            <input type="text"                        
+                                   id="id_ciudad"
+                                   name="id_ciudad"                        
+                                   required="required"             
+                                   maxLength="25"
+                                   placeholder="Ciudad"/>                       
+                           
+                        </td>
+                    </tr>
+                     <tr>
+                        <th>Numero de habitaciones *</th>
+                        <td>
+                            <input type="text"                        
+                                   id="num_habitaciones"
+                                   name="num_habitaciones"                        
+                                   required="required"             
+                                   maxLength="25"
+                                   placeholder="Ciudad"/>                       
+                           
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Enviar"/>
+                        </td>                    
+                    </tr>
+                </tbody>
+            </table>
+
+            </div>     
+
+        </form>
+    </body>
+</html>
